@@ -1,0 +1,32 @@
+header {
+    background-color: #ffffff;
+    padding: 0 15px;
+    border-bottom: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: red;
+    box-shadow: black;
+}
+
+div a {
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 20px;
+}
