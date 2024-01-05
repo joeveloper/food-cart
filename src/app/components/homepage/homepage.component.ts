@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FoodService } from '../../service/food/food.service';
 import { CurrencyPipe, NgFor } from '@angular/common';
 import { Food } from '../../shared/models/Food';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { SearchComponent } from "../search/search.component";
 import { TagsComponent } from "../tags/tags.component";
 
@@ -11,7 +11,7 @@ import { TagsComponent } from "../tags/tags.component";
     standalone: true,
     templateUrl: './homepage.component.html',
     styleUrl: './homepage.component.css',
-    imports: [NgFor, CurrencyPipe, SearchComponent, TagsComponent]
+    imports: [NgFor, CurrencyPipe, SearchComponent, TagsComponent, RouterLink]
 })
 export class HomepageComponent implements OnInit {
   

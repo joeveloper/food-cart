@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { FoodPageComponent } from './components/food-page/food-page.component';
 
 export const routes: Routes = [
     {
@@ -13,5 +14,9 @@ export const routes: Routes = [
     {
         path: 'tag/:tag',
         component: HomepageComponent
+    },
+    {
+        path: 'food/:id',
+        component: FoodPageComponent
     }
 ];

@@ -3,14 +3,13 @@
 
 <ul>
   <li *ngFor="let food of foods">
-    <a>
+    <a routerLink="/food/{{food.id}}">
       <img src="{{ food.imageUrl }}" alt="image" />
       <div class="content">
         <div>{{ food.name }}</div>
         <span class="favourite {{ food.favourite ? '' : 'not' }}"
           >&hearts;</span
         >
-        <div class="price">{{ food.price }}</div>
         <!-- <star-rating
           [value]="food.stars"
           [totalstars]="5"
