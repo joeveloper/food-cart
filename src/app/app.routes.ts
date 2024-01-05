@@ -5,5 +5,13 @@ export const routes: Routes = [
     {
         path: '',
         component: HomepageComponent
+    }, 
+    {
+        path: 'search/:searchTerm',
+        component: HomepageComponent
+    },
+    {
+        path: 'tag/:tag',
+        component: HomepageComponent
     }
 ];

@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    height: 3rem;
+    border-right: none;
+    width: 15rem;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border-radius: 10rem 0 0 10rem;
+
+}
+
+button {
+    height: 3rem;
+    width: 6rem;
+    font-size: 1rem;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 10rem 10rem 0;
+    background-color: bisque;
+    border: 2px solid #ccc;
+    opacity: 0.8;
+    outline: none;
+}

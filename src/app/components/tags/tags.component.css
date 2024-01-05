@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+}
+
+a {
+    padding: .5rem;
+    background-color: #ccc;
+    border-radius: 1rem;
+}
+
+a:hover {
+    background-color: #898686;
+    color: #ffffff;
+}
